@@ -1,4 +1,21 @@
-### Hi there 👋
+### My life cycle
+
+
+```C
+#include "../kitchen/coffee.h"
+#include "Me.h"
+
+// Declare variables...
+
+while (me.is_alive()) {
+  if (coffee.is_empty()) {
+    coffee.refill();
+  } else {
+    me.drink(coffee);
+    me.write_code();
+  }
+}
+```
 
 <!--
 **MCruces-fz/MCruces-fz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
