@@ -5,7 +5,8 @@
 #include "../kitchen/coffee.h"
 #include "Me.h"
 
-// Declare variables...
+Me me = Me("MCruces-fz");
+Coffee coffee = Coffee();
 
 while (me.is_alive()) {
   if (coffee.is_empty()) {
